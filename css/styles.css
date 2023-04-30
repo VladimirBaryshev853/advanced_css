@@ -1,0 +1,375 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.header-title {
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 43.75rem;
+}
+
+.header-image {
+    filter: brightness(45%);
+}
+
+.heder-h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Alkatra", cursive;
+    font-size: 6rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.header-phone {
+    position: absolute;
+    bottom: -30px;
+    left: 40%;
+    color: #fff;
+    line-height: 1.3;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10rem;
+}
+
+hr {
+    width: 40px;
+    border-color: #d43031;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.special-item_1 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 430px;
+    width: 20rem;
+    text-align: center;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.42;
+    font-size: 1.125rem;
+}
+
+.special-item_2 {
+    display: inline-block;
+    text-align: center;
+    width: 20rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.42;
+    font-size: 1.125rem;
+}
+
+.special-item_3 {
+    display: inline-block;
+    text-align: center;
+    width: 20rem;
+    margin-right: 20px;
+    text-align: center;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.42;
+    font-size: 1.125rem;
+}
+
+.special-image_1 {
+    width: 20rem;
+}
+
+.special-image_2 {
+    width: 20rem;
+}
+
+.special-image_3 {
+    width: 20rem;
+}
+
+.story-image {
+    float: left;
+    width: 50%;
+    height: 31.25rem;
+}
+
+.story-text {
+    background-color: #f6f6f6;
+    height: 31.25rem;
+    margin-top: 6.25rem;
+}
+
+.story-title {
+    text-align: center;
+    color: #777;
+    background-color: #f6f6f6;
+    padding-top: 8.125rem;
+    font-size: 1.5rem;
+}
+
+.story-text p {
+    color: #777;
+    background-color: #f6f6f6;
+    column-count: 1;
+    column-width: 12.5rem;
+    padding: 0 17.5rem 0;
+    line-height: 1.5;
+}
+
+.menu-section {
+    margin-top: 2rem;
+    padding-top: 0;
+}
+
+.breakfast-item {
+    position: absolute;
+    width: 27%;
+    padding: 0 150px 0;
+    margin: 0 50px 0 210px;
+    left: 120px;
+    text-align: left;
+    color: #777;
+    column-count: 1;
+    column-width: 200px;
+    font-size: 1.08rem;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+}
+
+.main-course-item {
+    position: absolute;
+    width: 27%;
+    padding: 0 150px 0;
+    margin: 0;
+    right: 250px;
+    text-align: left;
+    color: #777;
+    column-count: 1;
+    column-width: 200px;
+    font-size: 1.08rem;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+}
+
+.price_1 {
+    margin-left: 245px;
+}
+
+.price_2 {
+    margin-left: 290px;
+}
+
+.price_3 {
+    margin-left: 190px;
+}
+
+.price_4 {
+    margin-left: 240px;
+}
+
+.price_5 {
+    margin-left: 200px;
+}
+
+.price_6 {
+    margin-left: 155px;
+}
+
+.price_7 {
+    margin-left: 270px;
+}
+
+.price_8 {
+    margin-left: 240px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.gallery-section {
+    margin-top: 680px;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    color: #aaa;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.42;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 430px;
+}
+
+.chef-image {
+    width: 600px;
+    height: 400px;
+    margin-left: 400px;
+    position: absolute;
+    left: 570px;
+    top: 3270px;
+}
+
+.description {
+    width: 25%;
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.description p {
+    color: #777;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.contact-section {
+    margin-top: 250px;
+    background-color: #333;
+    padding: 150px 0;
+    text-align: center;
+
+}
+
+.contacts-block p {
+    color: #777;
+}
+
+.contacts-item_1 {
+    color: #aaa;
+    text-align: center;
+    margin: 0 70px 0 120px;
+    display: inline-block;
+    line-height: 1.42rem;
+    font-size: 1.125rem;
+}
+
+.contacts-item_2 {
+    color: #aaa;
+    text-align: center;
+    margin: 0 120px 0 70px;
+    display: inline-block;
+    line-height: 1.42rem;
+    font-size: 1.125rem;
+}
+
+.contacts-item_3 {
+    color: #aaa;
+    text-align: center;
+    margin: 0 120 0 70px;
+    display: inline-block;
+    line-height: 1.42rem;
+    font-size: 1.125rem;
+}
+
+.send_message {
+    font-size: 1.12rem;
+    color: #aaa;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 70px;
+}
+
+.contact-form {
+    display: block;
+    padding-top: 110px;
+}
+
+.name {
+    width: 19%;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 0;
+    line-height: 1.42;
+    font-size: 1rem;
+    color: #ccc;
+    position: absolute;
+    left: 550px;
+    top: 265rem;
+}
+
+.email {
+    width: 21%;
+    padding: 6px 12px;
+    margin-top: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border: 0;
+    line-height: 1.42;
+    font-size: 1rem;
+    color: #ccc;
+    position: absolute;
+    left: 970px;
+    top: 265rem;
+}
+
+.message {
+    margin: 20px 0 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 0;
+    width: 43%;
+    line-height: 1.42;
+    font-size: 1rem;
+    padding: 6px 12px;
+    color: #ccc;
+    position: absolute;
+    left: 550px;
+    top: 267rem;
+}
+
+.btn {
+    position: absolute;
+    top: 274rem;
+    right: 850px;
+    border-radius: 0;
+    font-family: Georgia;
+    color: #777;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #777 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #d43031;
+    color: #fff;
+}
+
+#footer {
+    background: #262626;
+    padding: 80px 0;
+    margin: 0;
+}
+
+.footer-rights {
+    margin-left: 400px;
+    margin-right: 400px;
+    color: #666;
+}
+
+.footer-link {
+    margin: 0 10px;
+    color: #888;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
